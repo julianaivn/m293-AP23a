@@ -1,0 +1,6 @@
+open ftp.bplaced.net
+ka7arina
+Sharpay.7
+binary
+put ftp.txt
+bye
