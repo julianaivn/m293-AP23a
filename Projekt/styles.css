@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 .banner {
-    background: url('banner.PNG') no-repeat center center;
+    background: url('banner.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
     padding: 5em 0;
@@ -38,6 +38,14 @@ nav ul li a {
 .banner h1 {
     color: #ECF0F1;
     font-weight: bold;
+}
+
+.banner button {
+    background-color: #E74C3C;
+    border: none;
+    padding: 1em 2em;
+    color: #ECF0F1;
+    cursor: pointer;
 }
 
 .song-section {
@@ -53,9 +61,10 @@ nav ul li a {
 
 .song-grid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1em;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding-bottom: 1em;
 }
 
 .song-item {
@@ -65,7 +74,8 @@ nav ul li a {
     border: 1px solid #2C3E50;
     padding: 1em;
     background-color: #fff;
-    width: calc(25% - 2em);
+    margin-right: 1em;
+    min-width: 200px; /* Adjust based on your design needs */
 }
 
 .album-cover img {
