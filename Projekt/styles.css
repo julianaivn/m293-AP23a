@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 .banner {
-    background: url('banner.jpg') no-repeat center center;
+    background: url('banner.png') no-repeat center center;
     background-size: cover;
     text-align: center;
     padding: 5em 0;
