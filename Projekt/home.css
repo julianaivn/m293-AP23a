@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 .banner button {
-    background-color: #A751E4;
+    background-color: #A751E4; 
     border: none;
     padding: 1em 2em;
     color: #ECF0F1;
@@ -54,58 +54,27 @@ nav ul li a {
     border: 2px solid #A751E4; 
 }
 
-.song-section {
+.intro-section {
     padding: 2em;
-}
-
-.country {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 1em;
-    display: flex;
-    align-items: center;
-}
-
-.country img {
-    height: 1.5em;
-    margin-right: 0.5em;
-}
-
-.song-grid {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    overflow-x: auto;
-    padding-bottom: 1em;
-}
-
-.song-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2C3E50;
-    padding: 1em;
-    background-color: #fff;
-    margin-right: 1em;
-    min-width: 200px; 
-}
-
-.album-cover img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1em;
-}
-
-.song-info {
     text-align: center;
+}
+
+.intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 footer {
-    background-color: #5e83f1;
+    background-color: #A751E4; 
     color: #ECF0F1;
     padding: 2em 0;
     text-align: center;
+    margin-top: auto;
 }
 
 footer ul {
@@ -130,10 +99,16 @@ footer input[type="email"] {
 }
 
 footer button {
-    background-color: #E74C3C;
+    background-color: #A751E4; 
     border: none;
     padding: 0.5em 1em;
     color: #ECF0F1;
     cursor: pointer;
     border-radius: 5px;
+}
+
+footer button:hover {
+    background-color: #ECF0F1;
+    color: #A751E4;
+    border: 2px solid #A751E4; 
 }

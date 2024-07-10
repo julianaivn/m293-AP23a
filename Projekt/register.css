@@ -40,69 +40,57 @@ nav ul li a {
     font-weight: bold;
 }
 
-.banner button {
-    background-color: #A751E4;
+.register-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.register-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.register-content {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-content label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.register-content input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-content button {
+    background-color: #A751E4; 
     border: none;
     padding: 1em 2em;
     color: #ECF0F1;
     cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
 }
 
-.banner button:hover {
+.register-content button:hover {
     background-color: #ECF0F1;
     color: #A751E4;
     border: 2px solid #A751E4; 
 }
 
-.song-section {
-    padding: 2em;
-}
-
-.country {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 1em;
-    display: flex;
-    align-items: center;
-}
-
-.country img {
-    height: 1.5em;
-    margin-right: 0.5em;
-}
-
-.song-grid {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    overflow-x: auto;
-    padding-bottom: 1em;
-}
-
-.song-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2C3E50;
-    padding: 1em;
-    background-color: #fff;
-    margin-right: 1em;
-    min-width: 200px; 
-}
-
-.album-cover img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1em;
-}
-
-.song-info {
-    text-align: center;
-}
-
 footer {
-    background-color: #5e83f1;
+    background-color: #5e83f1; 
     color: #ECF0F1;
     padding: 2em 0;
     text-align: center;
@@ -130,10 +118,16 @@ footer input[type="email"] {
 }
 
 footer button {
-    background-color: #E74C3C;
+    background-color: #A751E4; 
     border: none;
     padding: 0.5em 1em;
     color: #ECF0F1;
     cursor: pointer;
     border-radius: 5px;
+}
+
+footer button:hover {
+    background-color: #ECF0F1;
+    color: #A751E4;
+    border: 2px solid #A751E4; 
 }
